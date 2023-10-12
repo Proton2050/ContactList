@@ -40,3 +40,10 @@
 .read-the-docs {
   color: #888;
 }
+h3, p {
+  margin: 0;
+}
+.back-button {
+  margin-top: 1rem;
+  background-color: gray;
+}

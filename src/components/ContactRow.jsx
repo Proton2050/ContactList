@@ -1,12 +1,13 @@
+import { useState } from "react";
 export default function ContactRow({ setSelectedContactId, contact }) {
 
     return (
-        <tr onClick={()=>{
+        <tr className="tr" onClick={()=>{
             setSelectedContactId(contact.id);
         }}>
-            <td>{contact.name}</td>
-            <td>{contact.email}</td>
-            <td>{contact.phone}</td>
+            <td className="contactName">{contact.name}</td>
+            <td className="contactName">{contact.email}</td>
+            <td className="contactName">{contact.phone}</td>
         </tr>
     );
 }

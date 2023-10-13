@@ -24,7 +24,7 @@ export default function ContactList({ setSelectedContactId }) {
     }, [])
 
     return (
-        <table>
+        <table className='contactTable'>
             <thead>
                 <tr>
                     <th colSpan='3'>Contact List</th>
@@ -32,7 +32,7 @@ export default function ContactList({ setSelectedContactId }) {
             </thead>
             <tbody>
                 <tr>
-                    <td>Nmae</td>
+                    <td>Name</td>
                     <td>Email</td>
                     <td>Phone</td>
                 </tr>
